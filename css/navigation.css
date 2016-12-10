@@ -1,0 +1,14 @@
+.main-menu ul li {
+    display: inline;
+    float: center;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-menu a {
+    background-color: lightcyan;
+    padding: 50px, 10px;
+}

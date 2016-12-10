@@ -1,0 +1,67 @@
+.header {
+    text-align: center;
+}
+
+.header img {
+    display: inline;
+    width:50%;
+    height: auto;
+    float: center;
+    padding:10px,20px;
+}
+
+h1 {
+    display: block;
+    float: center;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 10px;
+    padding: 10px, 20px;
+}
+
+h2 {
+    color: royalblue;
+}
+
+.about {
+    display: block;
+    border: darkred;
+    border-style: solid;
+    padding: 200px, 20px;
+    margin: 100px, 50px, 100px, 50px;
+}
+
+.about img {
+    list-style-type: none;
+    border: black;
+    border-style: solid;
+    width:25%;
+    float: right;
+}
+
+.about p {
+    display: block;
+}
+
+a:hover {
+    color: saddlebrown;
+}
+
+.bands ul{
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+
+.bands ul li {
+    margin: 2cm;
+}
+
+.bands ul li img {
+    border: green;
+    border-style: solid;
+    width:25%;
+    float: right;
+    clear: both;
+    margin: 100px, 50px;
+}
