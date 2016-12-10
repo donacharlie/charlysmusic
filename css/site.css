@@ -16,8 +16,7 @@ h1 {
     float: center;
     font-size: 80px;
     font-weight: bold;
-    line-height: 10px;
-    
+    line-height: 10px;   
 }
 
 h2 {
@@ -28,8 +27,8 @@ h2 {
     display: block;
     border: darkred;
     border-style: solid;
-    padding: 200px, 20px;
-    margin: 100px, 50px, 100px, 50px;
+    padding: 20px 50px;
+    margin: 100px 20px 100px 20px;
 }
 
 .about img {
@@ -38,10 +37,12 @@ h2 {
     border-style: solid;
     width:25%;
     float: right;
+    margin: 0 00 10 20;
 }
 
 .about p {
     display: block;
+    text-align: justify;
 }
 
 a:hover {
