@@ -1,6 +1,11 @@
+.main-menu ul{
+    padding: 0px;
+}
+
+
 .main-menu ul li {
     display: inline;
-    float: center;
+    text-align: center;
 }
 
 .main-menu ul li a {
@@ -10,5 +15,4 @@
 
 .main-menu a {
     background-color: lightcyan;
-    padding: 50px, 10px;
 }
