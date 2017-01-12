@@ -77,6 +77,16 @@ a:hover {
     margin: 100px, 50px;
 }
 
+.workshops ul{
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+
+.bands ul li {
+    margin: 2cm;
+}
+
 .workshops ul li img {
     border: green;
     border-style: solid;
