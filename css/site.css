@@ -76,3 +76,12 @@ a:hover {
     clear: both;
     margin: 100px, 50px;
 }
+
+.workshops ul li img {
+    border: green;
+    border-style: solid;
+    width:25%;
+    float: right;
+    clear: both;
+    margin: 100px, 50px;
+}
