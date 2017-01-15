@@ -1,6 +1,9 @@
 .header {
     text-align: center;
     padding:10px,20px;
+}
+
+.body {
     background-color: grey;
     background: url (images/homephoto.jpg)
     background-size: contain;
