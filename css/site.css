@@ -1,14 +1,7 @@
 .header {
     text-align: center;
-    
-}
-
-.header img {
-    display: inline;
-    width:50%;
-    height: auto;
-    float: center;
-    padding:10px,20px;
+    background-color: grey;
+    background-image: url(images/homephoto.jpg);   
 }
 
 h1 {
