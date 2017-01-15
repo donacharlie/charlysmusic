@@ -4,12 +4,10 @@
 
 .header img {
      display: inline;
-     width:50%;
-     height: auto;
+     size: auto;
      float: center;
      padding:10px,20px;
-     background-color: grey;
-     background-image: url(images/homephoto.jpg);   
+     background-color: grey;   
 }
 
 
