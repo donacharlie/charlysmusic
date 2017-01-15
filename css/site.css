@@ -3,9 +3,8 @@
     padding:10px,20px;
 }
 
-.html {
+.header img{
     background-color: grey;
-    background: url (images/homephoto.jpg)
     background-size: contain;
 }
 
