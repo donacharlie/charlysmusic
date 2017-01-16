@@ -1,6 +1,6 @@
 .header {
-    background: url (images/homephoto.jpg);
-    background color: grey;
+    background-image: url (images/homephoto.jpg);
+    background-color: grey;
     
 }
 
