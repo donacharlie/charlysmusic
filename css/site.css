@@ -72,26 +72,25 @@ header .intro-text .skills {
 }
   
 
-h1 {
-    display: block;
-    float: center;
-    font-size: 80px;
-    font-weight: bold;
-    line-height: 10px;   
+section {
+  padding: 100px 0;
 }
-
-h2 {
-    color: royalblue;
+section h2 {
+  margin: 0;
+  font-size: 3em;
 }
-
-.about {
-    display: block;
-    border: darkred;
-    border-style: solid;
-    padding: 20px 50px;
-    margin: 100px 20px 100px 20px;
+section.success {
+  background: #18BC9C;
+  color: white;
 }
-
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
 .about img {
     list-style-type: none;
     border: black;
