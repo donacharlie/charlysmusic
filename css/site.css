@@ -80,6 +80,19 @@ section hr.star-light:after {
   background-color: white;
   color: black;
 }
+
+section hr.star-light:after {
+  background-color: white;
+  color: black;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+   background-color: white;
+  color: black;
+}
+
 section h2 {
   margin: 0;
   font-size: 3em;
