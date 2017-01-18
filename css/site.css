@@ -75,6 +75,11 @@ header .intro-text .skills {
 section {
   padding: 100px 0;
 }
+
+section hr.star-light:after {
+  background-color: white;
+  color: black;
+}
 section h2 {
   margin: 0;
   font-size: 3em;
