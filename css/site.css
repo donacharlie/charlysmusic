@@ -173,3 +173,9 @@ a:hover {
     clear: both;
     margin: 100px, 50px;
 }
+
+.main-photo {
+  background-image: url(../images/homephoto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
