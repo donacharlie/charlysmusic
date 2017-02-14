@@ -9,9 +9,16 @@ header {
   color: white;
 }
 
+img {
+  width: 50%;
+  height: auto;
+  display: block;
+  float: top;
+  padding: 500px, 50px, 10px, auto;
+}
 
 .name {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
   text-shadow: 4px 4px 1px Black;
 }
@@ -19,22 +26,21 @@ header {
 .skills {
   font-size: 1.5em;
   font-weight: 100;
-  text-shadow: 2px 2px 0px Black;
-
+  text-shadow: 3px 3px 0px Black;
 }
   
 .header-content-inner {
   position: relative;
-  top: +460px;
+  top: +500px;
 }
 
 hr.star-light {
-    /*padding: 0;
-    border: none;*/
+    padding: 0;
+    border: none;
     border-top: solid 5px;
     text-align: center;
     max-width: 250px;
-    margin: 10px auto 30px;
+    margin: 5px auto 10px;
 }
 
 hr.star-light:after {
@@ -58,9 +64,17 @@ hr.star-light:after {
 }
 
 
+
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
   }
- 
+ #mainNav{
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media (min-width: ) {
+  
 }
