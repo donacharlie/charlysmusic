@@ -31,19 +31,19 @@ img {
   
 .header-content-inner {
   position: relative;
-  top: +500px;
+  top: +600px;
 }
 
-hr.star-light {
-    padding: 0;
-    border: none;
+hr.star-light, hr.star-light-about, hr.star-light-bands, hr.star-light-shows, hr.star-light-workshops {
+    /*padding: 0;
+    border: none;*/
     border-top: solid 5px;
     text-align: center;
     max-width: 250px;
-    margin: 5px auto 10px;
+    margin: 5px auto 15px;
 }
 
-hr.star-light:after {
+hr.star-light:after, hr.star-light-about:after, hr.star-light-bands:after, hr.star-light-shows:after, hr.star-light-workshops:after  {
   content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
@@ -54,16 +54,166 @@ hr.star-light:after {
 }
 hr.star-light {
   border-color: white;
+  
+
 }
 hr.star-light:after {
   background-color: black;
   color: white;
+  text-shadow: 3px 3px 0px Black;
 }
+
+hr.star-light-about:after, hr.star-light-shows:after {
+    background-color:#DCCDB0;
+    color: black;
+}
+
+hr.star-light-bands:after{
+  background-color:white;
+    color: black;
+}
+
+
+hr.star-light-workshops:after{
+  background-color:white;
+    color: black;
+}
+
 .img-centered {
   margin: 0 auto;
 }
 
+section {
+  padding: 50px 100px;
+}
 
+
+ section h2 {
+     text-decoration: bold;
+     font-size: 40px;
+     text-align: center;
+ }
+
+.section-title h2 {
+    text-decoration: pink;
+}
+.section-title {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.about-content img {
+    width:40%;
+    float: right;
+    padding-left:23;
+    padding-top: 7px;
+}
+.about p {
+    display: block;
+    text-align: justify;
+    padding-top: 30px;
+    text-decoration: black;
+}
+
+#about, #shows {
+    background-image: url("../images/aboutbackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#bands {
+    /*background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQanZ12_5iRbbxFQN-c4P9wFZ0dvGi-VI3-fmniwI17Yzc2zlgN6g");*/
+    background-size: cover;
+    background-position: center;
+}
+ 
+/*#bands .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}*/
+
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  #mainNav{
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .container {
+    padding-right: 20px;
+}
+
+.row{
+  clear: both;
+  padding-left: 50px;
+}
+  .col-sm-6 {
+            max-height: 400px;
+            width: 500px;
+            margin: 20px 20px;
+            /*background: rgb(255, 150, 150);*/
+            padding:0;
+            float: left;
+}
+
+.col-sm-4 {
+            max-height: 300px;
+            width: 30%;
+            margin: 10px 10px;
+            /*background: rgb(255, 150, 150);*/
+            padding:0;
+            float: left;
+}
+
+.col-sm-6 img, .col-sm-4 img {
+  height: 100%;
+  width: 100%;
+}
+  /*#bands .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}*/
+/*#bands .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;*/
+}
+/*#bands .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 188, 156, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}*/
+/*#bands .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+
+#bands .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#bandsortfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#bands .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#bands * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #bands .portfolio-item {
+    margin: 0 0 30px;
+  }
+}*/
 
 
 @media (min-width: 768px) {
