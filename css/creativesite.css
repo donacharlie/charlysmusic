@@ -52,7 +52,7 @@ hr.star-light:after, hr.star-light-about:after, hr.star-light-bands:after, hr.st
   font-size: 2em;
   padding: 0 0.25em;
 }
-hr.star-light {
+hr.star-light, hr.star-light-bands {
   border-color: white;
   
 
@@ -69,8 +69,8 @@ hr.star-light-about:after, hr.star-light-shows:after {
 }
 
 hr.star-light-bands:after{
-  background-color:white;
-    color: black;
+  background-color:#3A1212;
+    color: white;
 }
 
 
@@ -94,8 +94,8 @@ section {
      text-align: center;
  }
 
-.section-title h2 {
-    text-decoration: pink;
+#bands h2 {
+    color: white;
 }
 .section-title {
     padding-bottom: 50px;
@@ -115,29 +115,23 @@ section {
     text-decoration: black;
 }
 
-#about, #shows {
+#about {
     background-image: url("../images/aboutbackground.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #bands {
-    /*background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQanZ12_5iRbbxFQN-c4P9wFZ0dvGi-VI3-fmniwI17Yzc2zlgN6g");*/
+    background-image: url("../images/backgroundmusic1.jpg");
     background-size: cover;
     background-position: center;
 }
  
-/*#bands .portfolio-item .portfolio-link .caption .caption-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}*/
-
+#shows {
+    background-image: url("../images/backgroundmusic7.jpg");
+    background-size: cover;
+    background-position: center;
+}
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -175,56 +169,66 @@ section {
   height: 100%;
   width: 100%;
 }
-  /*#bands .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-}*/
-/*#bands .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;*/
-}
-/*#bands .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+
+
+.caption {
+  background: #843737;
   position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}*/
-/*#bands .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
 }
 
-#bands .portfolio-item .portfolio-link .caption .caption-content i {
-  margin-top: -12px;
+#shows .caption {
+  background: #381201;
+
 }
-#bandsortfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#bands .portfolio-item .portfolio-link .caption .caption-content h4 {
-  margin: 0;
+.caption:hover{
+  opacity: 0.8;
+}
+
+.caption-content{
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  top: 25%;
+  color: white;
+}
+
+i {
+  margin: 50px;
+}
+
+.project-name {
+  font-size: 32px;
+  font-style: 
+}
+
+/*#bands .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+  #bands .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
 }
 #bands * {
   z-index: 2;
 }
+#bands .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+
+#bandsortfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#bands .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+
 @media (min-width: 767px) {
   #bands .portfolio-item {
     margin: 0 0 30px;
   }
 }*/
-
-
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
- #mainNav{
-    background: rgba(0, 0, 0, 0.6);
-  }
-}
-
-@media (min-width: ) {
-  
-}
