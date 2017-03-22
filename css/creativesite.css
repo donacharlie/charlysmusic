@@ -31,10 +31,10 @@ img {
   
 .header-content-inner {
   position: relative;
-  top: +600px;
+  top: +550px;
 }
 
-hr.star-light, hr.star-light-about, hr.star-light-bands, hr.star-light-shows, hr.star-light-workshops {
+hr.star-light, hr.star-light-about, hr.star-light-bands, hr.star-light-shows, hr.star-light-workshops, hr.star-light-portfolio:after {
     /*padding: 0;
     border: none;*/
     border-top: solid 5px;
@@ -43,7 +43,7 @@ hr.star-light, hr.star-light-about, hr.star-light-bands, hr.star-light-shows, hr
     margin: 5px auto 15px;
 }
 
-hr.star-light:after, hr.star-light-about:after, hr.star-light-bands:after, hr.star-light-shows:after, hr.star-light-workshops:after  {
+hr.star-light:after, hr.star-light-about:after, hr.star-light-bands:after, hr.star-light-shows:after, hr.star-light-workshops:after, hr.star-light-portfolio:after {
   content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
@@ -63,22 +63,26 @@ hr.star-light:after {
   text-shadow: 3px 3px 0px Black;
 }
 
-hr.star-light-about:after, hr.star-light-shows:after {
+hr.star-light-about:after {
     background-color:#DCCDB0;
     color: black;
 }
 
 hr.star-light-bands:after{
-  background-color:#3A1212;
+  background-color:	#280018;
     color: white;
 }
 
 
-hr.star-light-workshops:after{
+hr.star-light-workshops:after, hr.star-light-portfolio:after{
   background-color:white;
     color: black;
 }
 
+hr.star-light-shows:after{
+  background-color:#DD8335;
+    color: black;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -116,13 +120,14 @@ section {
 }
 
 #about {
-    background-image: url("../images/aboutbackground.jpg");
+    /*background-image: url("../images/backgroundmusic14.jpg");*/
+    background-color: #F9DB73;
     background-size: cover;
     background-position: center;
 }
 
 #bands {
-    background-image: url("../images/backgroundmusic1.jpg");
+    background-image: url("../images/backgroundmusic10.jpg");
     background-size: cover;
     background-position: center;
 }
